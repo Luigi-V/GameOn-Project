@@ -1,0 +1,7 @@
+body{
+    background-color: #4d4d4d;
+    color:rgb(229, 229, 229);
+  	background-image: url("wallpaper.png");
+  	background-size: cover;
+	weight: 100%;
+}

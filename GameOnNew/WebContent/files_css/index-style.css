@@ -1,0 +1,44 @@
+#stickyBar{
+    top:0;
+    position:sticky;
+}
+#nb-header{
+    padding-left:12px;
+}
+.changeColor:hover{
+    background-color: #cccc00;
+}
+.item-container{
+    margin-bottom: 5px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: #cccc00;
+    color: #222222;
+    border-radius: 2px;
+}
+.item-header{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 8px 3px 8px;
+    border-bottom: solid 1px #cccc00;
+}
+.item-footer{
+	font-weight: bold;
+    font-size: 12px;
+    padding: 3px 8px 3px 8px;
+    border-top: solid 1px #cccc00;
+}
+.item-img-field{
+    background-color: white;
+}
+
+.imageselector:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}

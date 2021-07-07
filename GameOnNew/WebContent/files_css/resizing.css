@@ -1,0 +1,320 @@
+#divLogin{
+    margin-right:20%;
+    margin-left:20%;
+}
+#divSignUp{
+    margin-right:15%;
+    margin-left:15%;
+}
+#btnSubmit{
+    margin-left:70%;
+    margin-bottom:20px;
+}
+#btnReset{
+    margin-right:70%;
+    margin-bottom:20px;
+}
+#VideogameSection{
+    margin-right:1%;
+    margin-left:1%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn-cont{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	float: right;
+}
+.hide-resize{
+    display: none;
+}
+.hide-resize-d{
+    display: none;
+}
+.gl-resize{
+    margin-right: 0px;
+}
+#search-field{
+    margin-top:8px;
+}
+#search-button{
+    margin-top:8px;
+    margin-right: 15px;
+}
+#ban-bar{
+    width:85%;
+}
+#cblock{
+    width:50%;
+}
+.userDiv{
+    width:30%;
+}
+.section-img{
+    width:100%;
+}
+.target-img{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.section-details{
+    width:60%;
+}
+.button-buy{
+    width:59%;
+}
+#cart-details{
+	margin-left:17%;
+    width:83%;
+}
+#btn-orderNow{
+	margin-left:17%;
+    width:83%;
+}
+.right-panel{
+    width: 92%;
+}
+#div-quantity{
+    margin-left: 7%;
+    width: 45%;
+}
+.ap-field{
+    margin-left: 12%;
+    width: 76%;
+}
+.ap-desc{
+    margin-left: 10%;
+    width: 80%;
+}
+#btn-addVideogame{
+    width: 60%;
+}
+#btn-removeVideogame{
+    margin-top:10px;
+}
+.adm-input{
+    width: 70%;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+.panel-left{
+	display: inline-block;
+	width: 80%;
+	float: left;
+}
+.panel-right{
+	display: inline-block;
+	width: 20%;
+	overflow: auto;
+}
+.middleTxt{
+	padding: 0px 0px 0px 0px;
+	margin: 12px 0px 0px 0px;
+}
+.qt-c{
+	padding: 0px 0px 0px 0px;
+	margin: 1px 0px 0px 0px;
+	width: 100%;
+	text-align: right;
+}
+.pr-c{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	text-align: right;
+}
+.totalBlock{
+	margin-bottom:15px;
+	width: 70%;
+}
+/*
+    *
+        START OF RESIZINGS
+    *
+*/
+
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    #divLogin{						/*Vedi login */
+        margin-right:15%;
+        margin-left:15%;
+    }
+    #divSignUp{
+        margin-right:12%;
+        margin-left:12%;
+    }
+}
+@media screen and (max-width: 599px){
+    #divLogin{
+        margin-right:10%;
+        margin-left:10%;
+    }
+    #divSignUp{
+        margin-right:8%;
+        margin-left:8%;
+    }
+}
+/*RESIZE DELL'INTERA PAGINA*/
+
+@media screen and (max-width: 769px){
+	.totalBlock{						
+		margin-bottom:15px;			/* VEDI orders.jsp*/
+		width: 80%;
+	}
+	#btnSubmit{
+        margin-left:0%;
+        margin-bottom:10px;
+    }
+    #btnReset{
+        margin-right:0%;
+        margin-bottom:10px;
+    }
+    .hide-resize{
+        display: inline;
+        margin-left:8px;
+    }
+    .hide-resize-d{
+        display: inline;
+        margin-left:6px;
+    }
+    #search-field{
+    	width: 50%;
+    	margin-top: 8px;
+    	margin-left: 10px;
+    	float: left;
+	}
+	#search-button{
+    	margin-top: 8px;
+    	margin-left: 8px;
+    	margin-right: 0px;
+    }
+    #cblock{
+        width:70%;
+    }
+    #ban-bar{
+        width:100%;
+    }
+    #banform{
+        display: flex;
+        justify-content: center;
+    }
+    #last-hr{
+        margin-top:5px;
+    }
+    .userDiv{
+    	width:50%;
+    }
+    .target-img{
+    	width:70%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+	}
+    .section-details{
+        width:70%;
+    }
+    .button-buy{
+        margin-left:25%;
+        width:50%;
+    }
+    #cart-details{
+    	margin-left: 20%;
+    	margin-right: 20%;
+    	width:60%;
+    }
+    #btn-orderNow{
+        margin-left: 20%;
+    	margin-right: 20%;
+    	width:60%;
+    }
+    .right-panel{
+    	margin-top: 20px;
+    	margin-left: 10%;
+    	margin-right: 10%;
+    	width:80%;
+	}
+	#div-quantity{
+   		margin-left: 30%;
+    	width: 40%;
+    }
+    #btn-addVideogame{
+        width: 45%;
+    }
+    #btn-removeVideogame{
+        margin-top:0px;
+    }
+    #spacingSection{
+    	margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 550px){
+    .panel-left{
+		display: inline-block;
+		width: 100%;
+		float: left;
+	}
+	.panel-right{
+		display: inline-block;
+		width: 100%;
+		overflow: auto;
+	}
+	.qt-c{
+		text-align: left;
+	}
+	.pr-c{
+		text-align: left;
+	}
+	.totalBlock{
+		margin-bottom:10px;
+		width: 90%;
+	}
+}
+@media screen and (max-width: 480px){
+	#search-field{
+    	width: 200px;
+    	margin-top: 8px;
+    	margin-left: 10px;
+    	float: left;
+	}
+	#search-button{
+    	margin-top: 8px;
+    	margin-left: 8px;
+    	margin-right: 0px;
+    }
+    .userDiv{
+    	width:80%;
+	}
+	.target-img{
+    	width:80%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	display: block;
+	}
+    .section-details{
+        width:80%;
+    }
+    
+}
+@media screen and (max-width: 276px){
+	#search-field{
+    	width: 150px;
+    	margin-top: 8px;
+    	margin-left: 10px;
+    	float: left;
+	}
+	#search-button{
+    	margin-top: 8px;
+    	margin-left: 8px;
+    	margin-right: 0px;
+    }
+}
+@media screen and (max-width: 415px){
+	.button-remove{
+		margin-top:2px;
+		margin-left: 30px;
+	}
+	.target-footer{
+		height: 60px;
+	}
+}

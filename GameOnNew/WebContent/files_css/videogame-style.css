@@ -1,0 +1,118 @@
+.panel-desc{
+	border-color: #cccc00;	
+}
+
+.panel-desc > .panel-heading {
+    background-image: none;
+    background-color: #cccc00;
+    color: #222222;
+    border-color: #cccc00;
+}
+
+.panel-desc > .panel-body {
+    background-image: none;
+    background-color: #383838;
+    color: white;
+    border-color: #cccc00;
+}
+
+.panel-other{
+	border-color: #cccc00;	
+}
+
+.panel-other > .panel-heading {
+    background-image: none;
+    background-color: #cccc00;
+    color: #222222;
+    border-color: #cccc00;
+}
+
+.panel-other > .panel-body {
+    background-image: none;
+    background-color: #383838;
+    color: white;
+    border-color: #cccc00;
+}
+
+.panel-other > .panel-footer {
+    background-image: none;
+    background-color: #cccc00;
+    color: #222222;
+    border-color: #cccc00;
+}
+
+.button-buy {
+	background-color: #383838;
+	color: white;
+	border: 2px solid #cccc00;
+	border-radius: 4px;
+}
+.button-buy:hover {
+	background-color: #cccc00;
+	color: rgb(0, 0, 0);
+	border-radius: 4px;
+}
+.button-buy-text {
+	padding: 8px 4px 8px 4px;
+	margin-bottom: 0px;
+}
+#div-quantity > #qt-span{
+	border: solid 1px #cccc00;
+	border-radius: 4px;
+	background-color: #cccc00;
+	color: #222222;
+}
+#div-quantity > #Videogame-quantity{
+	border: solid 1px #cccc00;
+	border-radius: 4px;
+	background-color: #383838;
+	color: white;
+}
+#button-remove{
+    border: solid 1px #383838;
+    border-radius: 4px;
+    background-color: white;
+	color: #383838;
+}
+#button-remove:hover{
+    border: solid 1px #383838;
+    border-radius: 4px;
+    background-color: #cccc00;
+	color: #222222;
+}
+.br-style-btn{
+    border: solid 1px #383838;
+    border-radius: 4px;
+    background-color: #cccc00;
+    color: #222222;
+}
+.br-style-btn:hover{
+    border: solid 1px #cccc00;
+    border-radius: 4px;
+    background-color: #383838;
+    color: white;
+}
+.hideDisplay{
+    display: none;
+}
+
+.panel-other-reverted{
+    margin: 1px 1px 1px 1px;
+    border-color: #222222;
+    width: 100%;
+}
+
+.panel-other-reverted > .panel-body {
+    background-image: none;
+    background-color: #222222;
+    color: #cccc00;
+    border-color: #222222;
+    margin: -1px -1px -1px -1px;
+}
+
+.panel-imageToChange{
+    float: left;
+    height: 40px;
+    width: auto;
+    margin: 1px 8px 1px 1px;
+}
